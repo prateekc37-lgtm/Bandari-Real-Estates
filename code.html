@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us | Bandari Real Estates</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&amp;family=Noto+Serif:wght@600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-container": "#7c839b",
+                        "on-tertiary-container": "#009668",
+                        "on-surface": "#191c1e",
+                        "surface-bright": "#f7f9fb",
+                        "surface-container-high": "#e6e8ea",
+                        "primary-fixed-dim": "#bec6e0",
+                        "secondary-fixed-dim": "#e9c349",
+                        "tertiary-fixed": "#6ffbbe",
+                        "outline-variant": "#c6c6cd",
+                        "surface-container-highest": "#e0e3e5",
+                        "on-secondary-container": "#745c00",
+                        "surface-variant": "#e0e3e5",
+                        "on-surface-variant": "#45464d",
+                        "on-primary-fixed": "#131b2e",
+                        "inverse-on-surface": "#eff1f3",
+                        "on-tertiary-fixed": "#002113",
+                        "tertiary": "#000000",
+                        "outline": "#76777d",
+                        "surface": "#f7f9fb",
+                        "error-container": "#ffdad6",
+                        "surface-container": "#eceef0",
+                        "secondary": "#735c00",
+                        "primary": "#000000",
+                        "on-primary-fixed-variant": "#3f465c",
+                        "secondary-fixed": "#ffe088",
+                        "error": "#ba1a1a",
+                        "primary-fixed": "#dae2fd",
+                        "background": "#f7f9fb",
+                        "surface-container-low": "#f2f4f6",
+                        "inverse-surface": "#2d3133",
+                        "primary-container": "#131b2e",
+                        "surface-tint": "#565e74",
+                        "secondary-container": "#fed65b",
+                        "surface-dim": "#d8dadc",
+                        "tertiary-container": "#002113",
+                        "tertiary-fixed-dim": "#4edea3",
+                        "on-background": "#191c1e",
+                        "on-secondary-fixed": "#241a00",
+                        "on-primary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed-variant": "#574500",
+                        "inverse-primary": "#bec6e0",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-tertiary-fixed-variant": "#005236"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "margin-mobile": "16px",
+                        "section-gap": "80px",
+                        "container-max": "1280px",
+                        "unit": "8px",
+                        "margin-desktop": "48px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Manrope"],
+                        "label-md": ["Manrope"],
+                        "headline-md": ["Noto Serif"],
+                        "headline-sm": ["Noto Serif"],
+                        "display-lg": ["Noto Serif"],
+                        "body-lg": ["Manrope"],
+                        "display-lg-mobile": ["Noto Serif"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "headline-sm": ["24px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "display-lg-mobile": ["36px", {"lineHeight": "1.2", "fontWeight": "700"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.5);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface font-body-md antialiased">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-[100] bg-surface/70 backdrop-blur-xl border-b border-outline-variant/20 shadow-sm">
+<div class="flex items-center justify-between px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-2xl" data-icon="home_work">home_work</span>
+<span class="font-headline-md text-headline-md tracking-tighter text-primary">BANDARI</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant hover:text-secondary transition-colors font-label-md text-label-md" href="#">Villas</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors font-label-md text-label-md" href="#">Apartments</a>
+<a class="text-secondary font-bold border-b-2 border-secondary font-label-md text-label-md" href="#">About Us</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors font-label-md text-label-md" href="#">Contact</a>
+</nav>
+<button class="bg-on-tertiary-container text-on-tertiary px-6 py-2 rounded-full font-label-md text-label-md hover:opacity-90 active:scale-95 duration-200">
+                Enquire Now
+            </button>
+</div>
+</header>
+<main class="pt-24 pb-32">
+<!-- Hero Section: Our Story & Legacy -->
+<section class="relative h-[530px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Luxury Estate" class="w-full h-full object-cover" data-alt="A grand architectural masterpiece featuring a modern luxury villa in Hyderabad at dusk. The building uses premium natural stone and expansive glass panels, reflecting a soft golden interior glow. Manicured emerald lawns surround the structure under a deep violet sky, creating an atmosphere of quiet luxury and sophisticated reliability. The lighting is dramatic yet warm, emphasizing the textures of the stone and the clarity of the design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_cToK_zt-Hkj7uhVlB_NisJmNVNh7Xhv4y0zFC9GfzpwSyYpMNcrvzUt4jhtlJSOWAb1FOOnYdNeImpIWSafo_sG-HmGnAg6mHqgKgAZyQA75yHdoRyTphdpmErVBvPTQ15wj0Mg4_PjD-MWg6hR37tu3lbWyVpEfUU_8hQYcLmp9VBgn0_Omf8PSfcSik1nDsy5sn8guPCLrNB0ft1W8SKJTUyK8939z73LlgizfaAVFhWHShhcZ6SYQLDFX97SvWA_O1Ttj24E"/>
+<div class="absolute inset-0 bg-primary-container/40"></div>
+</div>
+<div class="relative z-10 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto w-full">
+<div class="max-w-2xl">
+<span class="text-secondary-fixed font-label-md text-label-md uppercase tracking-widest mb-4 block">Est. 1998</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-primary mb-6">Our Story &amp; Legacy</h1>
+<p class="font-body-lg text-body-lg text-on-primary/90">Defining the skyline of Hyderabad through transparency, trust, and architectural excellence for over two decades.</p>
+</div>
+</div>
+</section>
+<!-- Company Narrative & Achievements -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-7">
+<h2 class="font-headline-md text-headline-md text-primary mb-8">The Most Trusted Property Advisor in Hyderabad</h2>
+<div class="space-y-6 text-on-surface-variant">
+<p class="font-body-md text-body-md">Bandari Real Estates began with a singular vision: to bring a new level of professionalism and integrity to the Hyderabad property market. Over the years, we have evolved from a boutique agency into the region's most respected advisor, helping thousands of families find their dream homes and investors secure lucrative assets.</p>
+<p class="font-body-md text-body-md">Our journey is built on a foundation of local expertise and a global standard of service. We don't just sell property; we curate lifestyles and build lasting relationships based on the absolute certainty that our clients' interests come first.</p>
+</div>
+</div>
+<div class="lg:col-span-5">
+<div class="glass-card p-12 rounded-xl text-center flex flex-col items-center justify-center space-y-6 border-2 border-secondary/20">
+<span class="material-symbols-outlined text-secondary text-6xl" data-icon="workspace_premium" data-weight="fill">workspace_premium</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Best Property Consultant 2023</h3>
+<p class="font-label-md text-label-md text-on-surface-variant">Awarded by the Hyderabad Real Estate Association for Excellence in Customer Service and Transparency.</p>
+<div class="h-px w-24 bg-secondary/30"></div>
+<p class="font-body-md text-body-md font-bold text-secondary">25+ Years of Trust</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Mission & Vision (Bento Grid Style) -->
+<section class="py-section-gap bg-surface-container-low">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<div class="bg-primary-container p-12 rounded-xl text-on-primary flex flex-col justify-between min-h-[400px] shadow-xl">
+<span class="material-symbols-outlined text-tertiary-fixed-dim text-5xl" data-icon="visibility">visibility</span>
+<div>
+<h3 class="font-headline-md text-headline-md mb-4">Our Vision</h3>
+<p class="font-body-lg text-body-lg text-on-primary-container">To be the definitive benchmark for luxury real estate in India, recognized for our commitment to ethical practices and the delivery of unparalleled value to our clients.</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-12 rounded-xl border border-outline-variant/30 flex flex-col justify-between min-h-[400px] shadow-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-5xl" data-icon="rocket_launch">rocket_launch</span>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Our Mission</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant">To empower every client with data-driven insights and transparent processes, ensuring that every property journey—from first viewing to final handover—is seamless and rewarding.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Values -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="text-center mb-16">
+<h2 class="font-headline-md text-headline-md text-primary mb-4">Our Core Values</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">The pillars that support every decision we make and every interaction we have.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="group text-center">
+<div class="w-20 h-20 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-6 transition-colors group-hover:bg-secondary">
+<span class="material-symbols-outlined text-secondary text-3xl group-hover:text-on-secondary" data-icon="gavel">gavel</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-3">Integrity</h4>
+<p class="text-on-surface-variant">We operate with unwavering honesty, ensuring that our word is our bond in every transaction.</p>
+</div>
+<div class="group text-center">
+<div class="w-20 h-20 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-6 transition-colors group-hover:bg-secondary">
+<span class="material-symbols-outlined text-secondary text-3xl group-hover:text-on-secondary" data-icon="search_check">search_check</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-3">Transparency</h4>
+<p class="text-on-surface-variant">Clear communication and open documentation. No hidden costs, no surprises—ever.</p>
+</div>
+<div class="group text-center">
+<div class="w-20 h-20 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-6 transition-colors group-hover:bg-secondary">
+<span class="material-symbols-outlined text-secondary text-3xl group-hover:text-on-secondary" data-icon="auto_awesome">auto_awesome</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-3">Excellence</h4>
+<p class="text-on-surface-variant">We strive for perfection in our property selections and the quality of our personalized service.</p>
+</div>
+</div>
+</section>
+<!-- Team Section -->
+<section class="py-section-gap bg-surface-bright">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="max-w-xl">
+<h2 class="font-headline-md text-headline-md text-primary mb-4">The Leadership Team</h2>
+<p class="text-on-surface-variant">Guided by industry veterans with deep roots in the Hyderabad real estate landscape.</p>
+</div>
+<button class="border border-primary px-8 py-3 rounded-full font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-all">View All Members</button>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Leader 1 -->
+<div class="group relative overflow-hidden rounded-xl bg-surface shadow-sm hover:shadow-xl transition-all">
+<div class="aspect-[4/5] overflow-hidden">
+<img alt="Leadership" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Professional corporate headshot of a senior executive male in a tailored navy blue suit against a soft-focus modern office background. He has a warm, confident expression, symbolizing trust and leadership. The lighting is professional studio-quality, emphasizing a polished and authoritative real estate brand image. The overall aesthetic is clean, minimalist, and high-end." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5y6-EMggLRRXHivCzuClJtC9yA5TKpCFD90eELZcEHY0yZlE1LMTuZW4i2ABuCyUoT_9VVJuIXH48Uz2-2VqkgRoYtfA0FdcArYw-_ki48WoIu4CYB5akgjtAsph2VhbgPPwPBAi-7k8uAcw_DZvbhK1Lpl9ULDUv0xBi2JR2H9AOOMbtJF35ezp4-Hr9Xe8rTPIS35hYJJbkQcYyaiMuosvW9aY6s2rIsVoayv5A1LIehfiW-udmEF96cSATrg9ooxeK89-r52w"/>
+</div>
+<div class="p-8">
+<h4 class="font-headline-sm text-headline-sm text-primary">Rajesh Bandari</h4>
+<p class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4">Founder &amp; Managing Director</p>
+<p class="text-on-surface-variant line-clamp-2">Leading the vision of ethical real estate development in Hyderabad for 25 years.</p>
+</div>
+</div>
+<!-- Leader 2 -->
+<div class="group relative overflow-hidden rounded-xl bg-surface shadow-sm hover:shadow-xl transition-all">
+<div class="aspect-[4/5] overflow-hidden">
+<img alt="Leadership" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Professional corporate headshot of a female executive in a minimalist cream-colored blazer, standing in a bright glass-walled boardroom. She radiates professionalism and intelligence with a friendly smile. The lighting is high-key and airy, fitting a modern corporate real estate aesthetic. The background features subtle architectural lines of a premium Hyderabad office." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0nNE44xmvPOMn0OHs-gK7VK07hBPeRcD7FbOY5bkPSV-gqaQpvPr1KFX4fSIdyije_pftdnFhw-ITplt4QQ_rcaCjxksmym-fCTJhmLfASaeKO9y9qwqTAtMoczVQM-DXY_tYX5ImzX-0QqUqjI_Cv-ZnXVRRC2NocaCPG_cNFlo4WcGv_xmSuziHrqxizOyVS-yqHxZUEg2dvlgaBX_s2wt2JHQtEjCRx2J_FG8Au71vE14M060LQGn4jNuqQzAGkw6UqbNkkvQ"/>
+</div>
+<div class="p-8">
+<h4 class="font-headline-sm text-headline-sm text-primary">Ananya Rao</h4>
+<p class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4">Head of Residential Sales</p>
+<p class="text-on-surface-variant line-clamp-2">A specialist in high-end luxury villa developments and client relationship management.</p>
+</div>
+</div>
+<!-- Leader 3 -->
+<div class="group relative overflow-hidden rounded-xl bg-surface shadow-sm hover:shadow-xl transition-all">
+<div class="aspect-[4/5] overflow-hidden">
+<img alt="Leadership" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Professional headshot of a middle-aged male executive in business casual attire with a focused, analytical gaze. The setting is a modern workspace with soft industrial elements and warm wooden textures. The lighting highlights sharp features and professional poise. This image represents the strategic and data-driven side of the real estate advisory firm." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjAFiKfVU3z24-xtt0d6_lS-M1tqSYQBS6kxz0cyJkfaKnBIwESWLPjJbTzx-H3vTvoq2hXvzusMWoIOALxlXGbaULuIXVavFB3dj3GngJg7-BzUUpn0F6Jgra347mkvxxQDgQ5yd23SH_56Aaf5efAgOaTkf1aaYIf6ppKNJqXS4GNCfoq6JcwE9z5cMhgwHmztjDigGIP6LN7hTG8CrqOsxFl8gtt7l_2Wg4hn7gB1NWpllsv-sbb3xUbwX_U7KqVHTCIRGIc6c"/>
+</div>
+<div class="p-8">
+<h4 class="font-headline-sm text-headline-sm text-primary">Vikram Reddy</h4>
+<p class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4">Director of Operations</p>
+<p class="text-on-surface-variant line-clamp-2">Ensuring operational excellence and transparency in legal and documentation processes.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Office Location -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter items-stretch">
+<div class="rounded-xl overflow-hidden shadow-2xl min-h-[400px]">
+<img alt="Corporate Office" class="w-full h-full object-cover" data-alt="The interior of a premium, modern corporate real estate office in Himayatnagar, Hyderabad. The space features floor-to-ceiling glass windows, minimalist white marble floors, and elegant navy blue furniture accents. The lighting is sophisticated, using recessed warm LEDs to create a welcoming yet high-end atmosphere. Soft shadows and glass reflections add depth to the luxurious professional environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA09FvVQ_t4XI1XtpYlaTR9Uj7ugMJamnWi7Mi5NG9kVLpmVl8qopPKg5UInFcDQofP6Ks9haQTVaIrSUTrfntD4v1ZEXL8Z7HFqPcXA6Idxq-JoXI4HDtLFLLcYEMSOw23IJQxgFRdoxMjtyEpSPaJ3ZpWt4Ws3oGRtMD8T-oPVOY6hAaxkCLeanbzX5Yjn7Id-DvwAVIBnqLMq_axzBTQwSbqzMNLcq_ueDuHK8tbV5gRdnKGIy7DorxO2YpvpZfcpY7j3pU4Ih8"/>
+</div>
+<div class="bg-primary-container p-12 lg:p-20 rounded-xl text-on-primary flex flex-col justify-center">
+<h3 class="font-headline-md text-headline-md mb-8">Visit Our Headquarters</h3>
+<div class="space-y-8">
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-secondary-fixed" data-icon="location_on">location_on</span>
+<div>
+<p class="font-label-md text-label-md text-on-primary-fixed-variant uppercase mb-1">Address</p>
+<p class="font-body-lg text-body-lg">4th Floor, Prestige Plaza, Himayatnagar Main Road, Hyderabad, Telangana 500029</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-secondary-fixed" data-icon="schedule">schedule</span>
+<div>
+<p class="font-label-md text-label-md text-on-primary-fixed-variant uppercase mb-1">Business Hours</p>
+<p class="font-body-lg text-body-lg">Mon - Sat: 9:00 AM - 7:00 PM<br/>Sunday: By Appointment Only</p>
+</div>
+</div>
+<button class="bg-on-tertiary-container text-on-tertiary px-10 py-4 rounded-full font-label-md text-label-md inline-flex items-center gap-2 self-start hover:opacity-90 active:scale-95 transition-transform">
+                            Get Directions
+                            <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-primary-container border-t border-outline-variant w-full">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-mobile md:px-margin-desktop py-section-gap max-w-container-max mx-auto">
+<div class="md:col-span-1">
+<span class="font-headline-sm text-headline-sm text-on-primary mb-6 block">BANDARI</span>
+<p class="text-on-primary-container/80 font-body-md text-body-md mb-6">Redefining luxury real estate in Hyderabad through trust and transparency since 1998.</p>
+</div>
+<div>
+<h5 class="text-on-primary font-label-md text-label-md uppercase tracking-widest mb-6">Properties</h5>
+<ul class="space-y-4">
+<li><a class="text-on-primary-container/80 hover:text-on-primary transition-transform hover:translate-x-1 inline-block font-body-md text-body-md" href="#">Luxury Villas</a></li>
+<li><a class="text-on-primary-container/80 hover:text-on-primary transition-transform hover:translate-x-1 inline-block font-body-md text-body-md" href="#">Apartments</a></li>
+<li><a class="text-on-primary-container/80 hover:text-on-primary transition-transform hover:translate-x-1 inline-block font-body-md text-body-md" href="#">Plot Developments</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-on-primary font-label-md text-label-md uppercase tracking-widest mb-6">Company</h5>
+<ul class="space-y-4">
+<li><a class="text-secondary-fixed underline font-body-md text-body-md" href="#">About Us</a></li>
+<li><a class="text-on-primary-container/80 hover:text-on-primary transition-transform hover:translate-x-1 inline-block font-body-md text-body-md" href="#">Contact</a></li>
+<li><a class="text-on-primary-container/80 hover:text-on-primary transition-transform hover:translate-x-1 inline-block font-body-md text-body-md" href="#">Privacy Policy</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-on-primary font-label-md text-label-md uppercase tracking-widest mb-6">Contact Us</h5>
+<p class="text-on-primary-container/80 font-body-md text-body-md mb-2">Himayatnagar, Hyderabad</p>
+<p class="text-on-primary-container/80 font-body-md text-body-md mb-6">+91 40 1234 5678</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-outline-variant/30 flex items-center justify-center text-on-primary hover:bg-secondary hover:border-secondary transition-colors" href="#">
+<span class="material-symbols-outlined text-lg" data-icon="share">share</span>
+</a>
+</div>
+</div>
+</div>
+<div class="px-margin-mobile md:px-margin-desktop py-8 border-t border-outline-variant/10 text-center">
+<p class="text-on-primary-container/60 font-body-md text-body-md">© 2024 Bandari Real Estates. All rights reserved.</p>
+</div>
+</footer>
+<!-- BottomNavBar (Mobile Only Action Bar) -->
+<div class="md:hidden fixed bottom-4 left-1/2 -translate-x-1/2 w-[calc(100%-32px)] max-w-md rounded-full z-50 bg-surface/80 backdrop-blur-md shadow-2xl border border-outline-variant/30 overflow-hidden">
+<div class="flex justify-around items-center p-2">
+<a class="flex flex-1 items-center justify-center gap-2 py-3 px-6 text-on-surface hover:opacity-90 active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined text-secondary" data-icon="chat">chat</span>
+<span class="font-label-md text-label-md">WhatsApp</span>
+</a>
+<a class="flex flex-1 items-center justify-center gap-2 py-3 px-6 bg-on-tertiary-container text-on-tertiary rounded-full hover:opacity-90 active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="call">call</span>
+<span class="font-label-md text-label-md">Call Now</span>
+</a>
+</div>
+</div>
+</body></html>

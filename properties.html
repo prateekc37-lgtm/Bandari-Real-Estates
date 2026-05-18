@@ -123,9 +123,11 @@
 <h1 class="font-headline-md text-headline-md tracking-tighter text-primary">BANDARI</h1>
 </div>
 <nav class="hidden md:flex gap-8">
-<a class="text-secondary font-bold border-b-2 border-secondary font-label-md text-label-md" href="#">Properties</a>
-<a class="text-on-surface-variant hover:text-secondary transition-colors font-label-md text-label-md" href="#">Investments</a>
-<a class="text-on-surface-variant hover:text-secondary transition-colors font-label-md text-label-md" href="#">About</a>
+<a href="index.html">Home</a>
+<a href="properties.html">Properties</a>
+<a href="services.html">Services</a>
+<a href="about.html">About Us</a>
+<a href="contact.html">Contact</a>
 </nav>
 <button class="bg-secondary text-on-secondary px-6 py-2 rounded-full font-label-md text-label-md hover:bg-on-secondary-fixed-variant transition-all active:scale-95 duration-200">
                 Enquire Now
@@ -309,54 +311,23 @@
 </section>
 </main>
 <!-- Footer Shell -->
-<footer class="w-full bg-primary-container border-t border-outline-variant">
-<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-mobile md:px-margin-desktop py-section-gap max-w-container-max mx-auto">
-<div class="space-y-4">
-<h2 class="font-headline-sm text-headline-sm text-on-primary">BANDARI</h2>
-<p class="text-on-primary-container/80 text-body-md">Building legacies and providing premium lifestyle experiences across Hyderabad since 2010.</p>
-</div>
-<div class="space-y-4">
-<h4 class="font-label-md text-label-md text-on-primary uppercase tracking-widest">Portfolio</h4>
-<ul class="space-y-2">
-<li><a class="text-on-primary-container/80 hover:text-on-primary transition-transform hover:translate-x-1 block font-body-md" href="#">Luxury Villas</a></li>
-<li><a class="text-on-primary-container/80 hover:text-on-primary transition-transform hover:translate-x-1 block font-body-md" href="#">Apartments</a></li>
-<li><a class="text-on-primary-container/80 hover:text-on-primary transition-transform hover:translate-x-1 block font-body-md" href="#">Plot Developments</a></li>
-</ul>
-</div>
-<div class="space-y-4">
-<h4 class="font-label-md text-label-md text-on-primary uppercase tracking-widest">Company</h4>
-<ul class="space-y-2">
-<li><a class="text-on-primary-container/80 hover:text-on-primary transition-transform hover:translate-x-1 block font-body-md" href="#">About Us</a></li>
-<li><a class="text-on-primary-container/80 hover:text-on-primary transition-transform hover:translate-x-1 block font-body-md" href="#">Contact</a></li>
-<li><a class="text-on-primary-container/80 hover:text-on-primary transition-transform hover:translate-x-1 block font-body-md" href="#">Privacy Policy</a></li>
-</ul>
-</div>
-<div class="space-y-4">
-<h4 class="font-label-md text-label-md text-on-primary uppercase tracking-widest">Stay Connected</h4>
-<div class="flex gap-4">
-<a class="w-10 h-10 rounded-full bg-on-primary-container/10 flex items-center justify-center hover:bg-secondary transition-colors" href="#">
-<span class="material-symbols-outlined text-white" data-icon="share">share</span>
-</a>
-<a class="w-10 h-10 rounded-full bg-on-primary-container/10 flex items-center justify-center hover:bg-secondary transition-colors" href="#">
-<span class="material-symbols-outlined text-white" data-icon="alternate_email">alternate_email</span>
-</a>
-</div>
-<p class="text-on-primary-container/60 text-xs mt-8">© 2024 Bandari Real Estates. All rights reserved.</p>
-</div>
-</div>
-</footer>
-<!-- BottomNavBar Shell -->
-<nav class="md:hidden fixed bottom-4 left-1/2 -translate-x-1/2 w-[calc(100%-32px)] max-w-md bg-surface/80 backdrop-blur-md rounded-full z-50 shadow-2xl border border-outline-variant/30 overflow-hidden">
-<div class="flex justify-around items-center p-2">
-<a class="flex flex-1 items-center justify-center gap-2 py-3 px-6 text-on-surface hover:opacity-90 active:scale-95 transition-transform" href="#">
-<span class="material-symbols-outlined" data-icon="chat">chat</span>
-<span class="font-label-md text-label-md">WhatsApp</span>
-</a>
-<div class="w-px h-6 bg-outline-variant/30"></div>
-<a class="flex flex-1 items-center justify-center gap-2 py-3 px-6 bg-on-tertiary-container text-on-tertiary rounded-full hover:opacity-90 active:scale-95 transition-transform" href="#">
-<span class="material-symbols-outlined" data-icon="call">call</span>
-<span class="font-label-md text-label-md">Call Now</span>
-</a>
-</div>
-</nav>
-</body></html>
+<!-- BottomNavBar (Mobile Only) -->
+<div class="md:hidden fixed bottom-4 left-1/2 -translate-x-1/2 w-[calc(100%-32px)] max-w-md rounded-full z-50 bg-surface/80 backdrop-blur-md shadow-2xl border border-outline-variant/30 overflow-hidden">
+  <div class="flex justify-around items-center p-2">
+
+    <!-- WhatsApp -->
+    <a class="flex flex-1 items-center justify-center gap-2 py-3 px-6 text-on-surface"
+       href="https://wa.me/919999999999">
+      <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">chat</span>
+      <span class="font-label-md text-label-md">WhatsApp</span>
+    </a>
+
+    <!-- Call Now -->
+    <a class="flex flex-1 items-center justify-center gap-2 py-3 px-6 bg-on-tertiary-container text-on-tertiary rounded-full shadow-lg"
+       href="tel:+919999999999">
+      <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">call</span>
+      <span class="font-label-md text-label-md">Call Now</span>
+    </a>
+
+  </div>
+</div></html>
